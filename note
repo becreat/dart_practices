@@ -1,0 +1,20 @@
+//default value
+void test([String name='default',age]){
+	print('My name is ${name}, and i am ${age} years old');
+
+	
+}
+
+
+//ff
+void test({String name='default',Int age}){
+	print('My name is ${name}, and i am ${age} years old');
+
+	
+}
+//test(age:10);
+
+//Anonymous Functions
+
+(data){print(data;}
+(data)=>print(data)
